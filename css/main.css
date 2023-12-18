@@ -1,0 +1,156 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --secondary: rgba(64, 64, 64, 0.8);
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+
+  background-color: #ffffff;
+  color: #1c0e0d;
+}
+
+.none {
+  display: none !important;
+}
+
+/* Header */
+
+.header {
+  overflow: hidden;
+  min-height: 1112px;
+
+  background: #fff8f2;
+}
+
+/* Header top*/
+
+.header-top {
+  margin-top: 40px;
+  min-width: 1000px;
+}
+
+/* Logo */
+
+.nav-logo {
+  margin: 0 auto;
+}
+
+/* Nav */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 48px;
+}
+
+.nav-list a {
+  color: inherit;
+}
+
+.nav-list a.active,
+.nav-list a:hover {
+  color: #ffbe3bff;
+  transition: color 0.2s ease-in;
+}
+
+.nav-login {
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  column-gap: 36px;
+}
+
+.login {
+  color: #ff553e;
+}
+
+.login:hover {
+  color: #ffbe3bff;
+  transition: color 0.2s ease-in;
+}
+
+/* Button */
+
+.nav-btn {
+  display: inline-block;
+  padding: 16px 32px;
+
+  border-radius: 34px;
+  background: #ff553e;
+  color: #ffffff;
+}
+
+.nav-btn:hover {
+  color: #bdff3aff;
+  transition: color 0.2s ease-in;
+}
+
+.nav-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Header content */
+
+.header-content {
+  margin-left: 28px;
+  min-height: 1126px;
+
+  text-align: center;
+
+  background-image: url("../img/header/header-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.header-title {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 165px;
+  text-align: center;
+
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.header-text {
+  max-width: 595px;
+  margin: 24px auto;
+
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #40201e;
+}
+
+.header-content a {
+  display: inline-block;
+  margin: 68px;
+  padding: 24px 40px;
+
+  border-radius: 34px;
+  background: #ff553e;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-content a:hover {
+  color: #bdff3aff;
+  transition: color 0.2s ease-in;
+}
+
+.header-content a:active {
+  position: relative;
+  top: 1px;
+}
